@@ -1,0 +1,14 @@
+plugins {
+    id 'nebula.resolution-rules' version '1.6.2'
+    id 'java'
+}
+
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    resolutionRules files('src/main/resources/deny.json')
+    compile 'org.slf4j:slf4j-api:1.7.21'
+}

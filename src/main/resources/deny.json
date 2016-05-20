@@ -1,0 +1,10 @@
+{
+  "deny": [
+    {
+      "module": "org.slf4j:slf4j-api",
+      "reason": "reproducing bug",
+      "author": "nadavc",
+      "date": "2015-10-07T20:21:20.368Z"
+    }
+  ]
+}
